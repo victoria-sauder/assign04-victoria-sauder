@@ -5,6 +5,7 @@
 ;; | Integer
 ;; | Boolean
 ;; | Character
+
 ;; type Answer = Value | 'err
 
 ;; type REnv = (Listof (List Variable Value))
