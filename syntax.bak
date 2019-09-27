@@ -17,8 +17,7 @@
      (and (andmap expr? xs)
           (andmap expr? ys)
           (expr? z))]
-    [`(expr? ,x)(expr? x)]
-    [`(closed? ,x) (closed? x)]
+    ;; TODO
     ;; ...
     [_ #f]))
 
